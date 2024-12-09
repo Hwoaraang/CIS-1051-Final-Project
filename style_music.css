@@ -1,0 +1,74 @@
+body {
+    background-image: url(/images/background.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "ROND" 0;
+}
+
+fieldset {
+    margin: 0px auto;
+    background-color: #FAD8C2;
+}
+
+.fieldset-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* LEFT */
+.fd-left {
+    width: 15%;
+    margin-left: 7%;
+    text-align: center;
+}
+
+.spotify {
+    margin-bottom: 15%;
+}
+
+
+/* MIDDLE */
+.fd-mid {
+    width: 45%;
+    text-align: center;
+}
+
+.music-bio, .music-bio2, .music-bio3, .sep-line {
+    text-align: center;
+}
+
+.yt-container {
+    text-align: center;
+}
+
+.youtube-vid {
+    border: 5px dotted white;
+}
+
+
+/* RIGHT */
+.fd-right {
+    width: 20%;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.right-title {
+    margin-top: 60px;
+}
+
+.playlist {
+    margin-bottom: 50px;
+}

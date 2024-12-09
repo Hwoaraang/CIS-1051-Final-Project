@@ -1,0 +1,89 @@
+body {
+    background-image: url(/images/background.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "ROND" 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.home-link {
+    font-size: medium;
+    text-align: center;
+}
+
+fieldset {
+    margin: 0px auto;
+    background-color: #FAD8C2;
+}
+
+.fieldset-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+/* LEFT */
+.fd-left {
+    width: 60%;
+    margin-left: 7%;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.gmail {
+    margin-top: 40px;
+}
+
+.gmail, .discord {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 100px;
+}
+
+.instaicon, .tiktokicon {
+    height: 175px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: larger;
+}
+
+.cookie-gif {
+    width: 60%;
+    position: absolute;
+    bottom: 120px;
+}
+
+.point {
+    width: 35%;
+    position: absolute;
+    bottom: 240px;
+    right: 350px;
+}
+
+
+/* RIGHT */
+.fd-right {
+    width: 20%;
+    margin-right: 7%;
+    text-align: center;
+}

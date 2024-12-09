@@ -1,0 +1,120 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url(/images/background.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "ROND" 0;
+}
+
+fieldset {
+    margin: 0px auto;
+    background-color: #FAD8C2;
+}
+
+.fieldset-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* LEFT */
+.fd-left {
+    width: 15%;
+    margin-left: 7%;
+    text-align: center;
+}
+
+.game-clips {
+    margin-top: 10px;
+}
+
+.vid-container {
+    margin-top: 10px;
+}
+/* END OF LEFT*/
+
+/* MIDDLE */
+.fd-mid {
+    max-width: 50%;
+}
+
+.home-link {
+    text-align: center;
+}
+
+.games-bio {
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+button {
+    padding: 0;
+    border: none;
+  }  
+
+.lollogo {
+    max-width: 165px;
+    height: 165px;
+    border: 5px solid rgb(224, 16, 68);
+}
+
+.r6logo {
+    max-width: 165px;
+    height: 165px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid rgb(224, 16, 68);
+}
+
+.valorantlogo {
+    max-width: 165px;
+    height: 165px;
+    border: 5px solid rgb(224, 16, 68);
+}
+
+.img-container2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fortnitelogo {
+    max-width: 165px;
+    height: 165px;
+    border: 5px solid rgb(224, 16, 68);
+    margin-right: 5%;
+}
+
+.tekkenlogo {
+    max-width: 165px;
+    height: 165px;
+    border: 5px solid rgb(224, 16, 68);
+    margin-left: 5%;
+}
+/* END OF MIDDLE*/
+
+/* RIGHT */
+.fd-right {
+    width: 15%;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.spin-gif {
+    max-width: 225px;
+    position: absolute;
+    bottom: 80px;
+    left: 77%;
+}

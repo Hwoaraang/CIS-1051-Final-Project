@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yibin's Webpage</title>
+    <link rel="stylesheet" href="style_games.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fieldset-container">
+        <fieldset class="fd-left">
+            <h2 class="game-clips">Some Game Clips!</h2>
+            <div class="vid-container">
+                <video width="220" controls>
+                    <source src="game_clips/league.mp4">
+                </video>
+                <video width="220" controls>
+                    <source src="game_clips/siege.mp4">
+                </video>
+                <video width="220" controls>
+                    <source src="game_clips/tekken.mp4">
+                </video>
+                <video width="220" controls>
+                    <source src="game_clips/valorant.mp4">
+                </video>
+            </div>
+        </fieldset>
+
+        <fieldset class="fd-mid">
+            <p class="home-link"><a href="index.html">back to homepage</a></p>
+            <h1>VIDEO GAMES</h1>
+            <p class="games-bio">
+                I love playing videos games. I spend just about all of my free time playing
+                games. The main games I play right now are League of Legends, Rainbow Six
+                Siege, Valorant, and Fortnite. I also like to play Tekken 8 from time to
+                time. <em>(you can click on any of the icons and it will display my in-game
+                info if you want to add me!)</em>
+            </p>
+            <div class="img-container">
+                <img src="images/leaguelogo.jpg" id="league" class="lollogo" alt="league logo" style="cursor: pointer;">
+                <img src="images/r6logo.jpg" id="siege" class="r6logo" alt="rainbow six logo" style="cursor: pointer;">
+                <img src="images/valorant.jpg" id="val" class="valorantlogo" alt="valorant logo" style="cursor: pointer;">
+            </div>
+            <div class="img-container2">
+                <img src="images/fortnite.png" id="fortnite" class="fortnitelogo" alt="fortnite logo" style="cursor: pointer;">
+                <img src="images/tekken.jpg" id="tekken" class="tekkenlogo" alt="tekken logo" style="cursor: pointer;">
+            </div>
+        </fieldset>
+
+        <fieldset class="fd-right">
+            <h2 class="game-info-title">Game Info:</h2>
+            <div id="display-game-things"></div>
+            <img src="https://68.media.tumblr.com/343456a321d87122eea844d3f72e4d79/tumblr_mmm9tx1CQ51rcauw6o1_500.gif" class="spin-gif">
+        </fieldset>
+    </div>
+    <script src="gamepage.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    background-image: url(/images/background.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "ROND" 0;
+}
+
+fieldset {
+    margin: 0px auto;
+    background-color: #FAD8C2;
+}
+
+.fieldset-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+/* LEFT */
+.fd-left {
+    width: 20%;
+    height: 650px;
+    margin-left: 7%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.anime-pic {
+    width: 90%;
+    border: 3px dashed white;
+}
+
+
+
+/* MIDDLE */
+.fd-mid {
+    width: 40%;
+    height: 650px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.chuu {
+    width: 65%;
+    border: 4px solid black;
+}
+
+.blossomblade, .lookism {
+    width: 40%;
+    border: 4px solid black;
+    margin-bottom: -20px;
+}
+
+.caption-container {
+    text-align: center;
+    display: flex;
+}
+
+.blossom {
+    margin-left: 6%;
+    margin-right: 13%;
+}
+
+
+/* RIGHT */
+.fd-right {
+    width: 20%;
+    height: 650px;
+    margin-right: 7%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.manhwa-pic {
+    width: 90%;
+    border: 3px dashed white;
+}
