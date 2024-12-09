@@ -6,5 +6,6 @@ a lot of the times, it did not make some of the elements of my webpage look how 
 webpages looked. Orginally, I wanted to do some more advanced things with CSS but I alraedy found the CSS that I did for the webpage a little difficult and it was frustrating so I didn't think I was
 ready for that. I also wanted to add more buttons using JavaScript to make the webpage more interactive but it was really hard to come up with ideas on how to use the buttons and what actions to make
 it perform.
+(I didn't upload video or image files I used because some of them are over 25mb and Github won't let me upload them)
 
 YOUTUBE URL FOR PROJECT: https://youtu.be/a1nTR8YF5R4
